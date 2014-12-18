@@ -1,6 +1,27 @@
 larasis
 =======
 
+## GIT WORKFLOW
+```shell
+## CLONE REPO (ONLY on FIRST TIME)
+git clone git@github.com:sithesis/larasis.git
+
+## UPDATE CODE (ONLY IF NOT FIRST TIME)
+git pull origin master
+
+## EDIT CODE WITH YOUR EDITOR
+vim app/controllers/BlahBlahController.php
+
+## ADD CHANGES TO COMMIT
+git add app/controllers/BlahBlahController.php
+
+## COMMIT THE CHANGES to LOCAL REPO
+git commit -m "I Updated the BLAh2x Controller"
+
+## PUSH changes that you committed
+git push origin master
+```
+
 ## NOTES:
 ```shell
 # INSTALL COMPOSER
